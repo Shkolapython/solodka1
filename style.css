@@ -1,0 +1,72 @@
+.src img{
+    width: 300px;
+    height: 150px;
+}
+p{
+  color: rgb(110, 17, 110);
+  border: 1px dashed black;
+}
+
+.src{
+    display: flex;
+}
+.sbc img{
+    width: 200px;
+    height: 200px;
+}
+.sbc{
+    display:flex ;
+}
+nav a{
+    position: absolute;
+    right:-110px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(61, 6, 75);
+    border-radius: 0 5px 5px 0;
+
+}
+nav a:hover{
+   right:0;
+       position: absolute;
+
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(48, 9, 58);
+    border-radius: 0 5px 5px 0;
+
+}
+.about{
+    top: 20px;
+    background-color:pink ;
+
+}
+.blog{
+    top: 80px;
+    background-color:rgb(159, 104, 214) ;
+}
+h1{
+    text-align: center;
+    color:rgb(228, 118, 228);
+    background-color: blueviolet;
+}
+body{
+    background-color: rgb(226, 163, 226);
+}
+img{
+    border: 7px double black;
+}
+iframe{
+    border: 6px solid rgb(114, 22, 111);
+   
+}
+.qww{
+    display: flex;
+    justify-content: center;
+}
